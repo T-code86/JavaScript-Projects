@@ -1,0 +1,65 @@
+ /*  reset & base stlyles */ 
+ 
+  *   {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;  
+    width: 100%;
+    background-image:url(/images/istockphoto-busy-street.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+ }     
+ .landing-page {
+    width: 100%;
+    height: auto;
+  }
+  .landing-page img {
+    width: 85%;
+    height: 70%;
+    object-fit: cover;
+    position: relative;
+    right: 250px;
+  }
+   .icon {
+    position: absolute;
+    height: 150px;
+    top:16%;
+    left:48%;
+    background-repeat: no-repeat;
+  }
+  .icon img {
+    width: 90px;
+    height: 90px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px #111;
+  }
+  .text {
+    position: absolute;
+    top:12%;
+    left:37%;
+    
+  }
+
+  .text p {
+    position: relative;
+    font-size: 80px;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 0 4px 8px #111;
+  }
+  .text span {
+     color: orangered;
+  }
+
+
+
+   
+   
+   
+   
+    
